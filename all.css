@@ -1,0 +1,82 @@
+* {
+margin-left: 20px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#pbody {
+    background-color: blue;
+    height: 100%;
+    border-left: 150px solid black;
+    border-right: 150px solid black;
+    box-sizing: border-box;
+}
+#body {
+background-color: blue;
+}
+#long-text {
+color: yellow;
+font-size: 30px;
+}
+#short-text {
+    color: yellow;
+    font-size: 30px;
+    }
+#p-text {
+color: yellow;
+font-size: 30px;
+}
+#h-text {
+color: yellow;
+font-size: 30px;
+}
+#links {
+font-size: 50px;
+background-color: red;
+}
+#learn {
+font-size: 50px;
+background-color: red;
+}
+#yearbook {
+font-size: 50px;
+background-color: red;
+}
+#hoops {
+font-size: 50px;
+background-color: red;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* allows better mobile support */
+}
+
+.text-buttons {
+    max-width: 600px;
+}
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+#mr {
+    width: 100%;
+    max-width: 275px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#pie {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 120px;
+    transform: rotate(135deg);
+    z-index: 2;
+}
